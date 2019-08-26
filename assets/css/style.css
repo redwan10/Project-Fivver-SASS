@@ -1,0 +1,280 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700|Rubik:400,500&display=swap");
+body {
+  font-family: "Rubik", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #fafafa;
+}
+
+a,
+.button, button {
+  -webkit-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #055394;
+}
+
+a:focus,
+button:focus, input:focus, textarea:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal;
+  color: #000000;
+  margin-top: 0px;
+  font-style: normal;
+  font-weight: 400;
+  text-transform: normal;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+h4 {
+  font-size: 22px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+h6 {
+  font-size: 16px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  list-style: none;
+}
+
+p {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 30px;
+  color: #A4A4A4;
+  margin-bottom: 15px;
+}
+
+a {
+  color: #0070C9;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+.header-area-wrapper {
+  background-color: #323232;
+}
+
+nav.navbar ul.navbar-nav {
+  background-color: #323232;
+}
+
+nav.navbar ul.navbar-nav li a {
+  color: #fff;
+  font-size: 16px;
+  position: relative;
+}
+
+nav.navbar ul.navbar-nav li a i {
+  font-size: 18px;
+}
+
+nav.navbar ul.navbar-nav li a:before {
+  position: absolute;
+  content: "";
+  background-color: #fff;
+  width: 0;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  transition: all 0.3s ease-out 0s;
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+}
+
+nav.navbar ul.navbar-nav li a:hover:before {
+  width: 100%;
+}
+
+.banner-content h2 {
+  font-size: 42px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  line-height: 38px;
+}
+
+.banner-content h2 i {
+  margin-right: 3px;
+  font-size: 44px;
+}
+
+.banner-content h4 {
+  font-weight: 500;
+}
+
+.banner-content a {
+  display: inline-block;
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.banner-content a i {
+  margin-left: 10px;
+  font-size: 22px;
+}
+
+.banner-content a:last-child {
+  margin-right: 0;
+}
+
+.cta-content {
+  position: relative;
+  min-height: 100%;
+}
+
+.cta-content .cta-text {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 100px;
+}
+
+.cta-content .cta-phone-banner {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+footer {
+  background-color: #f2f2f2;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.footer-top-text {
+  border-bottom: 2px solid #d6d6d6;
+  padding-bottom: 10px;
+  margin-bottom: 40px;
+}
+
+.footer-top-text p {
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.footer-top-text p span {
+  font-weight: 500;
+  color: #615d5d;
+}
+
+.single-footer-wid {
+  padding-bottom: 50px;
+}
+
+.single-footer-wid .f-wid-title {
+  margin-bottom: 15px;
+}
+
+.single-footer-wid .f-wid-title h5 {
+  font-weight: 600;
+  color: #333333;
+}
+
+.single-footer-wid .f-wid-content a {
+  color: #A4A4A4;
+  display: block;
+  font-weight: 500;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.single-footer-wid .f-wid-content a:hover {
+  color: #333333;
+}
+
+.footer-bottom-text {
+  border-bottom: 2px solid #d6d6d6;
+}
+
+.footer-bottom-text p {
+  font-size: 14px;
+  line-height: 32px;
+  margin-bottom: 0;
+}
+
+.copy-right-text p {
+  margin-bottom: 0;
+  line-height: 36px;
+}
+
+.footer-menu ul li {
+  display: inline-block;
+  padding: 0 10px;
+  border-right: 2px solid #d6d6d6;
+}
+
+.footer-menu ul li a {
+  display: block;
+  font-size: 14px;
+  color: #333333;
+  font-weight: 500;
+  padding: 3px 0;
+}
+
+.footer-menu ul li:last-child {
+  padding-right: 0;
+  border-right: none;
+}
+
+.footer-menu ul li:first-child {
+  padding-left: 0;
+}
+
+.footer-right {
+  text-align: right;
+}
+
+.footer-right span {
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.footer-right span img {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
+}
+/*# sourceMappingURL=style.css.map */
