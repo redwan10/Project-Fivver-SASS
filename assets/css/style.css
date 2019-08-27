@@ -104,18 +104,22 @@ nav.navbar ul.navbar-nav {
   background-color: #323232;
 }
 
-nav.navbar ul.navbar-nav li a {
+nav.navbar ul.navbar-nav li {
+  position: relative;
+}
+
+nav.navbar ul.navbar-nav li > a {
   color: #fff;
   font-size: 16px;
   position: relative;
   display: inline-block;
 }
 
-nav.navbar ul.navbar-nav li a i {
+nav.navbar ul.navbar-nav li > a i {
   font-size: 18px;
 }
 
-nav.navbar ul.navbar-nav li a:before {
+nav.navbar ul.navbar-nav li > a:before {
   position: absolute;
   content: "";
   background-color: #fff;
@@ -130,12 +134,66 @@ nav.navbar ul.navbar-nav li a:before {
   -o-transition: all 0.3s ease-out 0s;
 }
 
-nav.navbar ul.navbar-nav li a:hover:before {
+nav.navbar ul.navbar-nav li > a:hover:before {
   width: 100%;
 }
 
 nav.navbar ul.navbar-nav li a.icon:before {
   display: none;
+}
+
+nav.navbar ul.navbar-nav li ul.search-menu {
+  position: absolute;
+  left: 50%;
+  top: 200%;
+  margin-left: -150px;
+  width: 300px;
+  text-align: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease-out 0s;
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+}
+
+nav.navbar ul.navbar-nav li ul.search-menu li form.search-form input {
+  width: 200px;
+  height: 40px;
+  font-size: 16px;
+  color: #333333;
+  font-weight: 600;
+  padding-left: 20px;
+  background-color: #fff;
+  border: none;
+  border: 2px solid #0070C9;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+nav.navbar ul.navbar-nav li ul.search-menu li form.search-form button {
+  width: 85px;
+  height: 40px;
+  border: none;
+  color: #fff;
+  border: 2px solid transparent;
+  background-color: #0070C9;
+  font-weight: 600;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+nav.navbar ul.navbar-nav li:hover ul.search-menu {
+  visibility: visible;
+  opacity: 1;
+  top: 100%;
 }
 
 .banner-content h2 {
