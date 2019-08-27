@@ -3,7 +3,7 @@ body {
   font-family: "Rubik", sans-serif;
   font-weight: normal;
   font-style: normal;
-  background-color: #fafafa;
+  background-color: #FFFFFF;
 }
 
 a,
@@ -186,6 +186,162 @@ nav.navbar ul.navbar-nav li a.icon:before {
   bottom: 0;
   right: 0;
   left: 0;
+}
+
+.latest-product-wrapper {
+  background-color: #f2f2f2;
+}
+
+.latest-product-wrapper .single-latest-product .lat-product-icon {
+  min-height: 70px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: flex-end;
+  -ms-flex-align: flex-end;
+  align-items: flex-end;
+  margin-bottom: 10px;
+}
+
+.latest-product-wrapper .single-latest-product .lat-product-content h4 {
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.latest-product-wrapper .single-latest-product .lat-product-content span {
+  color: #EF5602;
+  font-size: 16px;
+}
+
+.latest-product-banner-wrap {
+  background-color: #121217;
+}
+
+.latest-product-banner-wrap .latest-product-content .lat-product-text {
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.latest-product-banner-wrap .latest-product-content .lat-product-text h4 {
+  color: inherit;
+  margin-bottom: 10px;
+}
+
+.latest-product-banner-wrap .latest-product-content .lat-product-text h2 {
+  color: inherit;
+}
+
+.latest-product-banner-wrap .latest-product-content .lat-product-text a {
+  margin-top: 15px;
+  color: #67BBFF;
+}
+
+.about-service-wrap .service-title {
+  padding-bottom: 40px;
+}
+
+.about-service-wrap .service-title h1 {
+  font-weight: 600;
+  font-size: 42px;
+  margin-bottom: 0;
+}
+
+.about-service-wrap .service-banner-content {
+  background-color: #121217;
+  background-image: url(../img/banner-02.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 550px;
+}
+
+.about-service-wrap .service-banner-content .service-banner-text {
+  color: #fff;
+  padding-top: 180px;
+}
+
+.about-service-wrap .service-banner-content .service-banner-text h4 {
+  color: inherit;
+  margin-bottom: 10px;
+}
+
+.about-service-wrap .service-banner-content .service-banner-text h2 {
+  color: inherit;
+  margin-bottom: 20px;
+}
+
+.about-service-wrap .service-banner-content .service-banner-text p {
+  color: inherit;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.about-service-wrap .service-banner-content .service-banner-text a {
+  color: #67BBFF;
+}
+
+.product-details-area {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.product-details-area .single-product-details {
+  background-color: #FAFAFA;
+  padding: 50px 130px;
+}
+
+.product-details-area .single-product-details h2 {
+  font-size: 38px;
+  font-weight: 600;
+}
+
+.product-details-area .single-product-details p {
+  color: #333333;
+  font-size: 22px;
+}
+
+.product-details-area .single-product-details a {
+  display: inline-block;
+  font-size: 20px;
+}
+
+.product-details-area .single-product-details a i {
+  margin-left: 10px;
+}
+
+.product-details-area .single-product-details .product-details-img {
+  margin-top: 60px;
+}
+
+.product-details-area .single-product-details .product-details-img img {
+  width: 50%;
+}
+
+.arcade-area-wrapper .single-arcade {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.arcade-area-wrapper .single-arcade.arcade-bg {
+  background-image: url("../img/arcade-banner-2.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+.arcade-area-wrapper .single-arcade.arcade-bg h2 {
+  color: inherit;
+}
+
+.arcade-area-wrapper .single-arcade.arcade-bg h4 {
+  color: inherit;
+  font-weight: 300;
+}
+
+.arcade-area-wrapper .single-arcade.arcade-bg a {
+  color: inherit;
 }
 
 footer {

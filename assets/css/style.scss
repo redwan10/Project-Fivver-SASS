@@ -21,7 +21,7 @@ body {
 	font-family: $rubik-sans;
 	font-weight: normal;
   font-style: normal;
-  background-color: #fafafa;
+  background-color: #FFFFFF;
 }
 a,
 .button,button {
@@ -201,6 +201,162 @@ nav.navbar {
   }
 }
 // CTA Area ENd
+
+
+// Latest Product Area
+.latest-product-wrapper {
+  background-color: $bg-light;
+  .single-latest-product {
+
+    .lat-product-icon{
+      min-height: 70px;
+      justify-content: center;
+      display: -webkit-box; 
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex; 
+      display: flex;
+      -webkit-box-align: flex-end;
+      -moz-box-align: flex-end;
+      -ms-flex-align: flex-end;
+      -webkit-align-items: flex-end;
+      align-items: flex-end;
+      margin-bottom: 10px;
+    }
+    .lat-product-content {
+      h4 {
+        font-weight: 500;
+        margin-bottom: 0;
+      }
+      span {
+        color: #EF5602;
+        font-size: 16px;
+      }
+    }
+  }
+} 
+// Latest Product Area End
+
+// Latest Product Banner
+.latest-product-banner-wrap {
+  background-color: $bg-dark;
+  .latest-product-content {
+    .lat-product-text {
+      margin-bottom: 30px;
+      color: #fff;
+      h4 {
+        color: inherit;
+        margin-bottom: 10px;
+      }
+      h2 {
+        color: inherit;
+      }
+      a {
+        margin-top: 15px;
+        color: #67BBFF;
+      }
+    }
+  }
+}
+// Latest Product Banner End
+
+// About Service
+.about-service-wrap {
+  .service-title {
+    padding-bottom: 40px;
+    h1 {
+      font-weight: 600;
+      font-size: 42px;
+      margin-bottom: 0;
+    }
+  }
+  .service-banner-content {
+    background-color: $bg-dark;
+    background-image: url(../img/banner-02.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 550px;
+    .service-banner-text{
+      color: #fff;
+      padding-top: 180px;
+      h4 {
+        color: inherit;
+        margin-bottom: 10px;
+      }
+      h2 {
+        color: inherit;
+        margin-bottom: 20px;
+      }
+      p{
+        color: inherit;
+        font-size: 18px;
+        font-weight: 300;
+      }
+      a {
+        color: #67BBFF;
+      }
+    }
+  }
+}
+// About Service End
+
+// Product Details Area
+.product-details-area { 
+  padding-top: 40px;
+  padding-bottom: 40px;
+  .single-product-details {
+    background-color: #FAFAFA;
+    padding: 50px 130px;
+    h2 {
+      font-size: 38px;
+      font-weight: 600;
+    }
+    p {
+      color: #333333;
+      font-size: 22px;
+    }
+    a {
+      display: inline-block;
+      font-size: 20px;
+      i {
+        margin-left: 10px;
+      }
+    }
+    .product-details-img {
+      margin-top: 60px;
+      img {
+        width: 50%;
+      }
+    }
+  }
+}
+// Product Details Area End
+
+// Arcade Area
+.arcade-area-wrapper {
+  .single-arcade{
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .single-arcade.arcade-bg {
+    background-image: url('../img/arcade-banner-2.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    h2 {
+      color: inherit
+    }
+    h4 {
+      color: inherit;
+      font-weight: 300;
+    }
+    a {
+      color: inherit
+    }
+  }
+}
+// Arcade Area End
+
 
 // Footer Area
 // Footer Top Text
