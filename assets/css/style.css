@@ -94,6 +94,12 @@ a {
   background-color: #323232;
 }
 
+nav.navbar button.navbar-toggler {
+  color: #fff;
+  font-size: 26px;
+  padding-left: 0;
+}
+
 nav.navbar ul.navbar-nav {
   background-color: #323232;
 }
@@ -102,6 +108,7 @@ nav.navbar ul.navbar-nav li a {
   color: #fff;
   font-size: 16px;
   position: relative;
+  display: inline-block;
 }
 
 nav.navbar ul.navbar-nav li a i {
@@ -125,6 +132,10 @@ nav.navbar ul.navbar-nav li a:before {
 
 nav.navbar ul.navbar-nav li a:hover:before {
   width: 100%;
+}
+
+nav.navbar ul.navbar-nav li a.icon:before {
+  display: none;
 }
 
 .banner-content h2 {

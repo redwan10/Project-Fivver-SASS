@@ -116,6 +116,11 @@ a{
 }
 
 nav.navbar {
+  button.navbar-toggler {
+    color: #fff;
+    font-size: 26px;
+    padding-left: 0;
+  }
   ul.navbar-nav {
     background-color: #323232;
     li{
@@ -123,6 +128,7 @@ nav.navbar {
         color: #fff;
         font-size: 16px;
         position: relative;
+        display: inline-block;
         i {
           font-size: 18px;
         }
@@ -144,6 +150,12 @@ nav.navbar {
           width: 100%;
         }
       }
+      a.icon {
+        &:before {
+          display: none;
+        }
+      }
+
     }
   }
 }
