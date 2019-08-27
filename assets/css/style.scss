@@ -359,7 +359,7 @@ nav.navbar {
   padding-top: 40px;
   padding-bottom: 40px;
   .single-product-details {
-    background-color: #FAFAFA;
+    background-color: $bg-light;
     padding: 50px 130px;
     h2 {
       font-size: 38px;
@@ -391,6 +391,7 @@ nav.navbar {
   .single-arcade{
     padding-top: 50px;
     padding-bottom: 50px;
+    background-color: $bg-light;
   }
   .single-arcade.arcade-bg {
     background-image: url('../img/arcade-banner-2.jpg');

@@ -9,6 +9,13 @@
       top: 45px;
     }
     /****** Page one End ******/
+    /****** Page 2 Start ******/
+    /* Product Details */
+    .product-details-area .single-product-details {
+      padding: 50px 80px;
+    }
+    
+    /****** Page 2 End ******/
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -22,11 +29,33 @@
     top: 0;
   }
   /****** Page one End ******/
+   /****** Page 2 Start ******/
+    /* Product Details */
+  .product-details-area .single-product-details {
+    padding: 50px 15px;
+  }
+   /****** Page 2 End ******/
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) { 
    /****** Page one Start ******/
+   /* Header Area  */
+   /* Mobile Menu */
+   nav.navbar ul.navbar-nav li ul.search-menu {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    margin-left: -150px;
+    width: 300px;
+    text-align: center;
+  }
+   nav.navbar ul.navbar-nav li:hover ul.search-menu {
+    visibility: visible;
+    opacity: 1;
+    top: 0 !important;
+    left: 30%;
+    }
   /* CTA Area */
    .cta-content .cta-text {
     position: absolute;
@@ -42,11 +71,47 @@
       font-weight: 500;
       font-size: 16px;
     }
+    /****** Page one End ******/
+    /****** Page 2 Start ******/
+    /* About Service Area */
+    .about-service-wrap .service-banner-content .service-banner-text {
+      padding-top: 160px;
+    }
+    /* Product Details Area */
+    .product-details-area .single-product-details {
+      padding: 50px 10px;
+    }
+    .product-details-area .single-product-details p {
+      font-size: 20px;
+    }
+    /****** Page 2 End ******/
 }
 
 /* Extra small devices (portrait phones, less than 768px) */
 @media (max-width: 767.98px) { 
    /****** Page one Start ******/
+   /* Header Area  */
+   /* Mobile Menu */
+   nav.navbar ul.navbar-nav li ul.search-menu {
+    position: absolute;
+    left: 90%;
+    top: 0;
+    margin-left: -150px;
+    width: 300px;
+    text-align: center;
+  }
+   nav.navbar ul.navbar-nav li:hover ul.search-menu {
+    visibility: visible;
+    opacity: 1;
+    top: 0 !important;
+    left: 70%;
+    }
+    nav.navbar ul.navbar-nav li ul.search-menu li form.search-form input {
+      width: 170px;
+    }
+    nav.navbar ul.navbar-nav li ul.search-menu li form.search-form button {
+      width: 80px;
+    }
     /* Banner Area */
     .banner-content h2 {
       font-size: 28px;
@@ -84,6 +149,22 @@
       line-height: 28px;
       font-size: 12px;
     }
+    /****** Page one End ******/
+    /****** Page 2 Start ******/
+    /* Service About Area */
+    .about-service-wrap .service-title h1 {
+      font-weight: 600;
+      font-size: 21px;
+      margin-bottom: 0;
+    }
+    /* Product Details */
+    .product-details-area .single-product-details {
+      padding: 50px 10px;
+    }
+    .arcade-area-wrapper .single-arcade.arcade-bg {
+      margin-bottom: 30px;
+    }
+    /****** Page 2 End ******/
 }
 
 /* Small devices (landscape phones, 576px and up) */

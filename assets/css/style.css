@@ -380,6 +380,7 @@ nav.navbar ul.navbar-nav li:hover ul.search-menu {
 .arcade-area-wrapper .single-arcade {
   padding-top: 50px;
   padding-bottom: 50px;
+  background-color: #f2f2f2;
 }
 
 .arcade-area-wrapper .single-arcade.arcade-bg {
