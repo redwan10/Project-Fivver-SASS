@@ -172,7 +172,7 @@ nav.navbar ul.navbar-nav li ul.search-menu li form.search-form input {
   padding-left: 20px;
   background-color: #fff;
   border: none;
-  border: 2px solid #0070C9;
+  border: 2px solid #A4A4A4;
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -186,7 +186,7 @@ nav.navbar ul.navbar-nav li ul.search-menu li form.search-form button {
   border: none;
   color: #fff;
   border: 2px solid transparent;
-  background-color: #0070C9;
+  background-color: #A4A4A4;
   font-weight: 600;
   border-radius: 5px;
   -webkit-border-radius: 5px;
